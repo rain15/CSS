@@ -1,0 +1,19 @@
+
+a {
+text-decoration: underline;
+color: red;	
+}
+
+h1 {
+	font-family: helvetica, Arial, sans-serif;
+	margin-right: 1px ;
+	color: #852237;
+	
+}
+
+.group1 {
+		margin-left: 50px;
+		width: 500px;
+		background: black;
+		margin: auto;
+}

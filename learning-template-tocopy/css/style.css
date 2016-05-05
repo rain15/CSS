@@ -1,0 +1,16 @@
+body {
+    background: #D2D1D1;
+    font-family: helvetica, Arial, sans-serif;
+}
+
+#wrapper {
+    margin: auto;
+    width: 50%;
+}
+
+.lightborder {
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+}
+

@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Introduction to Forms</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <form action="" method="get">
+        <!-- Jeffrey Way, the youtube tuts+ instructor said good way to create list of label and input. so he used unordered list to group them. -->
+        <ul>
+            <li>
+                <label for="yourName">Enter your name:</label>
+                <!-- Usually, developers use both id and name attributes inside input even tho they do same thing as javascript likes name attribute.  The values in there has to match for attribute in label tag above. -->
+                <input id="yourName" name="yourName" />
+            </li>
+            <li>
+                <label for="comments">Your Comments</label>
+                <textarea id="comments" name="comments">
+                </textarea>
+            </li>
+            <li>
+                <label for="css">Do you like CSS?</label>
+                <input name="css" id="css" type="checkbox" />
+            </li>
+            <li>
+                <label for="favlang">Favorite Language?</label>
+                <input type="radio" id="favlang" name="favlang" /> CSS
+                <input type="radio" id="favlang" name="favlang" /> HTML
+                <input type="radio" id="favlang" name="favlang" /> Javascript
+                <input type="radio" id="favlang" name="favlang" /> Ruby
+            </li>
+            <li>
+                <input type="submit" value="Go!">
+            </li>
+            
+        </ul>
+    </form>
+</body>
+
+</html>
